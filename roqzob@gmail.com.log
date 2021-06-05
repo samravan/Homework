@@ -1,0 +1,73 @@
+2021-06-04 07:38:56 info: ----------------------------------------------
+2021-06-04 07:38:56 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-06-04 07:38:56 info: ----------------------------------------------
+2021-06-04 07:39:07 info: All unit tests passed.
+2021-06-04 07:39:15 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:27:17 - Unknown word (Roqaya)
+
+2021-06-04 07:40:40 info: Disclaimer turned off
+2021-06-04 07:45:33 info: ----------------------------------------------
+2021-06-04 07:45:33 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-06-04 07:45:33 info: ----------------------------------------------
+2021-06-04 07:45:40 info: All unit tests passed.
+2021-06-04 07:45:44 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:39:17 - Unknown word (roqaya)
+
+2021-06-04 07:50:57 info: ----------------------------------------------
+2021-06-04 07:50:57 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-06-04 07:50:57 info: ----------------------------------------------
+2021-06-04 07:51:03 info: All unit tests passed.
+2021-06-04 07:51:08 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:39:17 - Unknown word (roqaya)
+
+2021-06-04 07:52:30 info: ----------------------------------------
+2021-06-04 07:52:30 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-06-04 07:52:30 info: ----------------------------------------
+2021-06-04 07:52:37 info: All unit tests passed.
+2021-06-04 07:52:41 info: All steps were completed successfully
+2021-06-04 08:11:31 info: -------------------------------------------
+2021-06-04 08:11:31 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-06-04 08:11:31 info: -------------------------------------------
+2021-06-04 08:11:37 info: All unit tests passed.
+2021-06-04 08:11:42 info: All steps were completed successfully
+2021-06-04 09:28:56 info: --------------------------------------------
+2021-06-04 09:28:56 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-06-04 09:28:56 info: --------------------------------------------
+2021-06-04 09:29:05 info: All unit tests passed.
+2021-06-04 09:29:11 info: All steps were completed successfully
+2021-06-04 11:18:51 info: -------------------------------------------------
+2021-06-04 11:18:51 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-06-04 11:18:51 info: -------------------------------------------------
+2021-06-04 11:19:00 info: All unit tests passed.
+2021-06-04 11:19:06 info: All steps were completed successfully
+2021-06-04 11:45:29 info: -----------------------------------------
+2021-06-04 11:45:29 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-06-04 11:45:29 info: -----------------------------------------
+2021-06-04 11:45:37 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €78.50
+  Received: Total: €78.5
+
+2021-06-04 11:46:36 info: -----------------------------------------
+2021-06-04 11:46:36 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-06-04 11:46:36 info: -----------------------------------------
+2021-06-04 11:46:43 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €78.00
+  Received: Total: €78
+
+2021-06-04 11:50:58 info: -----------------------------------------
+2021-06-04 11:50:58 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-06-04 11:50:58 info: -----------------------------------------
+2021-06-04 11:51:05 info: All unit tests passed.
+2021-06-04 11:51:10 info: All steps were completed successfully
+2021-06-05 04:22:49 info: -------------------------------------------
+2021-06-05 04:22:49 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-06-05 04:22:49 info: -------------------------------------------
+2021-06-05 04:23:16 info: All unit tests passed.
+2021-06-05 04:23:25 info: All steps were completed successfully

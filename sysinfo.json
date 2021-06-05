@@ -1,0 +1,50 @@
+{
+  "node": "v14.16.1",
+  "system": {
+    "manufacturer": "LENOVO",
+    "model": "80NT"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i7-6500U",
+    "speed": 2.5
+  },
+  "memory": "16 GB",
+  "osInfo": {
+    "platform": "win32",
+    "distro": "Microsoft Windows 10 Enterprise",
+    "release": "10.0.19042"
+  },
+  "vscodeInfo": {
+    "version": "1.56.2",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "CoenraadS.bracket-pair-colorizer",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "firefox-devtools.vscode-firefox-debug",
+      "GitHub.vscode-pull-request-github",
+      "hdg.live-html-previewer",
+      "ms-toolsai.jupyter",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker"
+    ],
+    "userSettings": {
+      "gitlens.advanced.messages": {
+        "suppressImproperWorkspaceCasingWarning": true
+      },
+      "cSpell.userWords": [
+        "Roqaya"
+      ]
+    }
+  }
+}
