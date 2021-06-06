@@ -1,0 +1,30 @@
+2021-06-05 05:14:23 info: -------------------------------------------------
+2021-06-05 05:14:23 info: >>> Running Unit Test `ex1-doubleEvenNumbers` <<<
+2021-06-05 05:14:23 info: -------------------------------------------------
+2021-06-05 05:14:34 info: All unit tests passed.
+2021-06-05 05:14:42 info: All steps were completed successfully
+2021-06-05 06:37:51 info: -------------------------------------------------
+2021-06-05 06:37:51 info: >>> Running Unit Test `ex1-doubleEvenNumbers` <<<
+2021-06-05 06:37:51 info: -------------------------------------------------
+2021-06-05 06:37:59 info: All unit tests passed.
+2021-06-05 06:38:05 info: All steps were completed successfully
+2021-06-05 07:09:00 info: --------------------------------------------
+2021-06-05 07:09:00 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-06-05 07:09:00 info: --------------------------------------------
+2021-06-05 07:09:07 info: All unit tests passed.
+2021-06-05 07:09:12 info: All steps were completed successfully
+2021-06-05 07:19:35 info: --------------------------------------------
+2021-06-05 07:19:35 info: >>> Running Unit Test `ex3-lemonAllergy` <<<
+2021-06-05 07:19:35 info: --------------------------------------------
+2021-06-05 07:19:42 info: All unit tests passed.
+2021-06-05 07:19:47 info: All steps were completed successfully
+2021-06-05 11:59:10 info: ------------------------------------------------
+2021-06-05 11:59:10 info: >>> Running Unit Test `ex4-publishSubscribe` <<<
+2021-06-05 11:59:10 info: ------------------------------------------------
+2021-06-05 11:59:22 info: All unit tests passed.
+2021-06-05 11:59:29 info: All steps were completed successfully
+2021-06-06 01:31:23 info: --------------------------------------
+2021-06-06 01:31:23 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-06-06 01:31:23 info: --------------------------------------
+2021-06-06 01:31:54 info: All unit tests passed.
+2021-06-06 01:32:03 info: All steps were completed successfully
