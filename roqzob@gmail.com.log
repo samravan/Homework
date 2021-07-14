@@ -28,3 +28,29 @@
 2021-06-06 01:31:23 info: --------------------------------------
 2021-06-06 01:31:54 info: All unit tests passed.
 2021-06-06 01:32:03 info: All steps were completed successfully
+2021-07-14 10:54:38 info: ---------------------------------------
+2021-07-14 10:54:38 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-07-14 10:54:38 info: ---------------------------------------
+2021-07-14 10:55:39 info: All unit tests passed.
+2021-07-14 10:55:49 info: All steps were completed successfully
+2021-07-14 11:15:46 info: -------------------------------------------------
+2021-07-14 11:15:46 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-07-14 11:15:46 info: -------------------------------------------------
+2021-07-14 11:15:54 error: *** Unit Test Error Report ***
+
+- checkDoubleDigits (10) should return a promise that resolves to "This is a double digit number!"
+expect(received).resolves.toEqual()
+
+Received promise rejected instead of resolved
+Rejected to value: [Error: Expected a double digit number but got 10],
+- checkDoubleDigits (99) should return a promise that resolves to "This is a double digit number!"
+expect(received).resolves.toEqual()
+
+Received promise rejected instead of resolved
+Rejected to value: [Error: Expected a double digit number but got 99],
+
+2021-07-14 11:16:48 info: -------------------------------------------------
+2021-07-14 11:16:48 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-07-14 11:16:48 info: -------------------------------------------------
+2021-07-14 11:16:54 info: All unit tests passed.
+2021-07-14 11:16:59 info: All steps were completed successfully
