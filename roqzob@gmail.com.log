@@ -59,3 +59,23 @@ Rejected to value: [Error: Expected a double digit number but got 99],
 2021-07-14 12:28:09 info: ----------------------------------------
 2021-07-14 12:28:18 info: All unit tests passed.
 2021-07-14 12:28:24 info: All steps were completed successfully
+2021-07-15 12:37:16 info: --------------------------------------------
+2021-07-15 12:37:16 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-07-15 12:37:16 info: --------------------------------------------
+2021-07-15 12:37:42 info: All unit tests passed.
+2021-07-15 12:37:50 info: All steps were completed successfully
+2021-07-15 12:41:14 info: --------------------------------------------
+2021-07-15 12:41:14 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-07-15 12:41:14 info: --------------------------------------------
+2021-07-15 12:41:21 info: All unit tests passed.
+2021-07-15 12:41:25 info: All steps were completed successfully
+2021-07-15 12:46:18 info: --------------------------------------------
+2021-07-15 12:46:18 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-07-15 12:46:18 info: --------------------------------------------
+2021-07-15 12:46:24 info: All unit tests passed.
+2021-07-15 12:46:28 info: All steps were completed successfully
+2021-07-15 12:47:03 info: ----------------------------------------------
+2021-07-15 12:47:03 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2021-07-15 12:47:03 info: ----------------------------------------------
+2021-07-15 12:47:09 info: All unit tests passed.
+2021-07-15 12:47:14 info: All steps were completed successfully
