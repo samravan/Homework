@@ -6,11 +6,13 @@
 2. Have the function execute when it's loading in the browser.
 ------------------------------------------------------------------------------*/
 const headingEl = document.createElement('h1');
-headingEl.textContent = 'current time';
+headingEl.style.textAlign = 'center';
+headingEl.style.color = '#189AB4';
+
 document.body.appendChild(headingEl);
 function addCurrentTime() {
   const time = new Date();
-  headingEl.textContent = `${time.toLocaleTimeString('en-ir')}`;
+  headingEl.textContent = `${time.toLocaleTimeString()}`;
 }
 setInterval(addCurrentTime, 1000);
 

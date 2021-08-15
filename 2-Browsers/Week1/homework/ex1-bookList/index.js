@@ -43,16 +43,18 @@ const myBooks = [
 ];
 
 function createBookList(books) {
+  // your code goes in here, return the ul element
+
   const ulElement = document.createElement('ul');
   ulElement.style.display = 'flex';
   document.querySelector('#bookList').appendChild(ulElement);
-
   for (let i = 0; i < books.length; i++) {
     const liElement = document.createElement('li');
-    liElement.setAttribute(
-      'style',
-      'width:calc(30% - 20px); display:block; margin: 10px 20px; padding: 10px;min-width:300px;listStyle :none'
-    );
+    liElement.style.width = 'calc(30% - 20px)';
+    liElement.style.display = 'block';
+    liElement.style.margin = '10px 20px';
+    liElement.style.padding = '10px';
+    liElement.style.listStyle = 'none';
 
     if (books[i].alreadyRead === true) {
       liElement.style.backgroundColor = 'green';
@@ -61,16 +63,24 @@ function createBookList(books) {
     }
 
     ulElement.appendChild(liElement);
-    const liElementText = document.createElement('p');
-    liElementText.textContent = `${books[i].title} - ${books[i].author}`;
-    const liImg = document.createElement('img');
-    liImg.src = `${books[i].imgSrc}`;
-    liImg.alt = `${books[i].imgSrc}`;
 
-    liImg.setAttribute('style', ' height:400px;float:left; margin: 20px;');
+    const pElement = document.createElement('p');
+    pElement.textContent = `${books[i].title}: ${books[i].author}`;
+    pElement.style.textAlign = 'center';
+    const imgElement = document.createElement('img');
 
-    liElement.appendChild(liElementText);
-    liElement.appendChild(liImg);
+    const imgName = books[i].title.split(' ').join('_');
+    imgElement.src = `assets/${imgName}.jpg`;
+    imgElement.alt = books[i].title;
+    imgElement.style.display = 'block';
+    imgElement.style.height = '400px';
+    imgElement.style.marginLeft = 'auto';
+    imgElement.style.marginRight = 'auto';
+    imgElement.style.marginBottom = '20px';
+    imgElement.style.width = '70%';
+
+    liElement.appendChild(pElement);
+    liElement.appendChild(imgElement);
   }
 }
 

@@ -15,5 +15,10 @@ const hometown = document.getElementById('hometown');
 nickname.textContent = 'Roqaya';
 favFood.textContent = 'Pasta';
 hometown.textContent = 'NewYork';
-const listItems = document.querySelectorAll('li');
-listItems.forEach((listItem) => listItem.classList.add('list-item'));
+const liElements = document.querySelectorAll('li');
+liElements.forEach((liElement) => liElement.classList.add('list-item'));
+
+// with for loop
+// for (let i = 0; i < liElements.length; i++) {
+//   liElements[i].className = 'list-item';
+// }

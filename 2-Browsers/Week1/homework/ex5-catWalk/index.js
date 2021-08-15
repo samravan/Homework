@@ -19,12 +19,12 @@
 
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
-const catty = document.querySelector('img');
-catty.style.left = '0px';
+const catEl = document.getElementsByTagName('img');
+catEl.style.left = '0px';
 let timer = 0;
 let interval;
 function intervalFunc() {
-  catty.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
+  catEl.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
   interval = setInterval(catWalk, 50);
 }
 
@@ -34,17 +34,17 @@ function catWalk() {
   } else {
     timer = 0;
   }
-  catty.style.left = `${timer}px`;
+  catEl.style.left = `${timer}px`;
 
   if (
     window.innerWidth / 2 - 190 < timer &&
     timer < window.innerWidth / 2 - 170
   ) {
     timer += 20;
-    catty.src =
+    catEl.src =
       'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
     clearInterval(interval);
-    setTimeout(intervalFunc, 3000);
+    setTimeout(intervalFunc, 5000);
   }
 }
 
