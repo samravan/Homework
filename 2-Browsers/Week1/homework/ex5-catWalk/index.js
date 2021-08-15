@@ -26,7 +26,7 @@ let timer = 0;
 let interval;
 catEl.style.left = '0px';
 const intervalFunc = () => {
-  catEl.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
+  catEl.src = './cat-walk.gif';
   interval = setInterval(catWalk, 50);
 };
 
