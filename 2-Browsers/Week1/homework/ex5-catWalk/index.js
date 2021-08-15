@@ -19,17 +19,19 @@
 
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
-const catEl = document.getElementsByTagName('img');
-catEl.style.left = '0px';
+const catEl = document.querySelector('img');
+const catDancing =
+  'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
 let timer = 0;
 let interval;
-function intervalFunc() {
+catEl.style.left = '0px';
+const intervalFunc = () => {
   catEl.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
   interval = setInterval(catWalk, 50);
-}
+};
 
 function catWalk() {
-  if (timer <= window.innerWidth - 300) {
+  if (timer <= window.innerWidth - catEl.width) {
     timer += 10;
   } else {
     timer = 0;
@@ -40,9 +42,8 @@ function catWalk() {
     window.innerWidth / 2 - 190 < timer &&
     timer < window.innerWidth / 2 - 170
   ) {
-    timer += 20;
-    catEl.src =
-      'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+    timer += 10;
+    catEl.src = catDancing;
     clearInterval(interval);
     setTimeout(intervalFunc, 5000);
   }
