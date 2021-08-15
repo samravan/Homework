@@ -69,9 +69,8 @@ function createBookList(books) {
     pElement.style.textAlign = 'center';
     const imgElement = document.createElement('img');
 
-    const imgName = books[i].title.split(' ').join('_');
-    imgElement.src = `assets/${imgName}.jpg`;
-    imgElement.alt = books[i].title;
+    imgElement.src = books[i].imgSrc;
+    imgElement.setAttribute('alt', books[i].title);
     imgElement.style.display = 'block';
     imgElement.style.height = '400px';
     imgElement.style.marginLeft = 'auto';
