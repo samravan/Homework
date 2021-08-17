@@ -9,11 +9,11 @@ Let's rewrite it (or _refactor_ it, as professional developers would call it):
 `doubleEvenNumbers`.
 ------------------------------------------------------------------------------*/
 function doubleEvenNumbers(numbers) {
-  const evenNumbers = numbers.filter((item) => item % 2 === 0);
+  const filterAndMap = numbers
+    .filter((num) => num % 2 === 0)
+    .map((num) => num * 2);
 
-  const doubleNumbers = evenNumbers.map((item) => item * 2);
-
-  return doubleNumbers;
+  return filterAndMap;
 }
 
 const myNumbers = [1, 2, 3, 4];

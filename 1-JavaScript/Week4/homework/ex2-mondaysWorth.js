@@ -30,11 +30,11 @@ const mondayTasks = [
 const hourlyRate = 25;
 
 function computeEarnings(taskArr, hourlyR) {
-  const taskDuration = taskArr.map((taskArr) => taskArr.duration);
-
-  const sum = taskDuration.map((sum) => (sum * hourlyR) / 60);
-
-  const total = sum.reduce((a, b) => a + b, 0);
+  //using map to take out the duration and multiply by hourly rate
+  //using reduce to sum all the duration
+  const total = taskArr
+    .map((taskArr) => (taskArr.duration * hourlyR) / 60)
+    .reduce((a, b) => a + b, 0);
 
   const twoDecimal = total.toFixed(2);
 
